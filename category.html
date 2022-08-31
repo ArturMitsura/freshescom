@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Category</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220831183857">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<div class="top-header__content">
+						<div class="top-header__contact">
+							<ul class="menu__list menu__list_contacts">
+								<li data-da=".menu__list_main, 768" class="menu__item"><a href="#" class="menu__link">Chat with us</a>
+								</li>
+								<li data-da=".menu__list_main, 768" class="menu__item">+375445612394</li>
+								<li data-da=".menu__list_main, 768" class="menu__item">infofresh@gmail.com</li>
+							</ul>
+						</div>
+						<div class="top-header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list menu__list_main">
+									<li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+									<li class="menu__item"><a href="" class="menu__link">About Us</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Careers</a></li>
+								</ul>
+							</nav>
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+						</div>
+					</div>
+				</div>
+				<div class="header__main main-header">
+					<div class="main-header__content">
+						<div data-da=".top-header__content, 768, 1" class="top-main__logo"><a href="">Freshesecom</a></div>
+						<div class="top-main__form">
+							<form action="" id="main-form" class="main__form">
+								<label for="forMainheader" class="main__label">
+									<select name="form[]" data-class-modif="form__select">
+										<option value="1" selected>All categories</option>
+										<option value="2">Bakery</option>
+										<option value="3">Fruit and vegetables</option>
+										<option value="4">Meat and fish</option>
+									</select>
+								</label>
+								<input id="forMainheader" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Search Products, categories" class="main__input">
+								<button type="submit" class=" main__button _icon-search"></button>
+							</form>
+						</div>
+						<button data-da=".top-header__content, 768, 1" class="top-main__purchases purchases-main">
+							<a href="#" data-popup="#popup">
+								<div class="purchases-main__user _icon-user"></div>
+							</a>
+							<div class="purchases-main__curt _icon-curt"><span>4</span><a href="checkout_page.html"></a></div>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__category">
+						<div class="bottom-header__body">
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Bakery</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Fruit and
+									vegetables</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Meat and fish</a>
+							</div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Drinks</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Kitchen</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Special nutrion</a>
+							</div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Baby</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Pharmacy</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__bread bread-bread">
+				<div class="bread-bread__container">
+					<nav class="bread-bread__body">
+						<ul class="bread-bread__list">
+							<li class="bread-bread__item"><a class="bread-bread__link" href="index.html">Homepage</a></li>
+							<li class="bread-bread__item">Fruit and vegetables</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="page__control control-page">
+				<div class="control-page__top control-page-top">
+					<div class="control-page-top__container">
+						<div class="control-page-top__title">Fruit and vegetables</div>
+						<div class="control-page-top__panel">
+							<div class="control-page-top__grids">
+								<button type="submit" class="control-page-top__grid">Grid view</button>
+							</div>
+							<div class="control-page__lists">
+								<button type="submit" class="control-page-top__list">List view</button>
+							</div>
+							<div class="control-page-top__products"><span>117</span>Products</div>
+						</div>
+					</div>
+				</div>
+				<div class="control-page__main control-page-main">
+					<div class="control-page-main__container">
+						<form action="#" class="control-page-main__filters">
+							<div class="control-page-main__filter filter-text">
+								<div class="filter-text__body">
+									<input id="filter_1" type="radio" value="" name="filter-text" class="filter-text__input">
+									<label for="filter_1" type="text" class="filter-text__label">Filtre text</label>
+									<input checked id="filter_2" type="radio" value="" name="filter-text" class="filter-text__input">
+									<label for="filter_2" type="text" class="filter-text__label">Filtre text</label>
+								</div>
+							</div>
+							<div class="control-page-main__filter filter-nbm">
+								<input id="filter_3" value="" type="checkbox" name="filter-checkbox" class="filter-text__checkbox">
+								<label for="filter_3" type="text" class="filter-text__label-check">Filtre one</label>
+							</div>
+							<div class="control-page-main__filter filter-nbm">
+								<input checked id="filter_4" value="" type="checkbox" name="filter-checkbox" class="filter-text__checkbox">
+								<label for="filter_4" type="text" class="filter-text__label-check">Filtre second</label>
+							</div>
+							<div class="control-page-main__filter filter-select">
+								<input id="filter_5" value="" type="checkbox" name="filter-checkbox" class="filter-text__checkbox">
+								<label for="filter_5" type="text" class="filter-text__label-check">Filtre third
+									<span>12</span></label>
+								<select name="form[]" data-class-modif="form">
+									<option value="1" selected>Select</option>
+									<option value="2">point 1</option>
+									<option value="3">point 2</option>
+									<option value="4">point 3</option>
+								</select>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="control-page__applied control-page-applied">
+					<div class="control-page-applied__container">
+						<div class="control-page-applied__body">
+							<div class="control-page-applied__title">Applied filtres:</div>
+							<div class="control-page-applied__filtre">
+								<div class="control-page-applied__select">Selected Filtre</div>
+								<button type="submit" class="control-page-applied__close"></button>
+							</div>
+							<div class="control-page-applied__filtre">
+								<div class="control-page-applied__select">Selected Filtre</div>
+								<button type="submit" class="control-page-applied__close"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="control-page__body control-page-body">
+					<div class="control-page-body__container">
+						<div class="control-page-body__filtres control-body-filtres">
+							<div class="control-body-filtres__categories">
+								<div class="control-body-filtres__title">Categories</div>
+								<ul class="control-body-filtres__list">
+									<li class="control-body-filtres__item"><a href="" class="control-body-filtres__link"> <span class="control-body-filtres__sp-name">Category name</span> <span class="control-body-filtres__sp-number">320</span></a></li>
+									<li class="control-body-filtres__item"><a href="" class="control-body-filtres__link"> <span class="control-body-filtres__sp-name">Category name</span> <span class="control-body-filtres__sp-number">112</span></a></li>
+									<li class="control-body-filtres__item"><a href="" class="control-body-filtres__link"> <span class="control-body-filtres__sp-name">Category name</span> <span class="control-body-filtres__sp-number">32</span></a></li>
+									<li class="control-body-filtres__item"><a href="" class="control-body-filtres__link"> <span class="control-body-filtres__sp-name">Category name</span> <span class="control-body-filtres__sp-number">48</span></a></li>
+								</ul>
+							</div>
+							<div class="control-body-filtres__brands">
+								<div class="control-body-filtres__title">Brands</div>
+								<form action="#" class="control-body-filtres__form">
+									<div class="control-body-filtres__row">
+										<input checked id="control-filtres1" type="checkbox" name="form[]" class="control-body-filtres__input">
+										<label for="control-filtres1" class="control-body-filtres__label">Filtre by brand
+											item</label>
+									</div>
+									<div class="control-body-filtres__row">
+										<input id="control-filtres2" type="checkbox" name="form[]" class="control-body-filtres__input">
+										<label for="control-filtres2" class="control-body-filtres__label">Filtre by brand
+											item</label>
+									</div>
+									<div class="control-body-filtres__row">
+										<input id="control-filtres3" type="checkbox" name="form[]" class="control-body-filtres__input">
+										<label for="control-filtres3" class="control-body-filtres__label">Filtre by brand
+											item</label>
+									</div>
+									<div class="control-body-filtres__row">
+										<input id="control-filtres4" type="checkbox" name="form[]" class="control-body-filtres__input">
+										<label for="control-filtres4" class="control-body-filtres__label">Filtre by brand
+											item</label>
+									</div>
+									<div class="control-body-filtres__row">
+										<input id="control-filtres5" type="checkbox" name="form[]" class="control-body-filtres__input">
+										<label for="control-filtres5" class="control-body-filtres__label">Filtre by brand
+											item</label>
+									</div>
+								</form>
+							</div>
+							<div class="control-body-filtres__raiting">
+								<div class="control-body-filtres__title">Raiting</div>
+								<form action="#" class="control-body-filtres__form">
+									<div class="control-body-filtres__row control-raiting-filtres">
+										<input checked id="control-raiting1" type="checkbox" name="form[]" class="control-raiting-filtres__input">
+										<label for="control-raiting1" class="control-raiting-filtres__label">
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+										</label>
+									</div>
+									<div class="control-body-filtres__row control-raiting-filtres">
+										<input id="control-raiting2" type="checkbox" name="form[]" class="control-raiting-filtres__input">
+										<label for="control-raiting2" class="control-raiting-filtres__label">
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+										</label>
+									</div>
+									<div class="control-body-filtres__row control-raiting-filtres">
+										<input id="control-raiting3" type="checkbox" name="form[]" class="control-raiting-filtres__input">
+										<label for="control-raiting3" class="control-raiting-filtres__label">
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+										</label>
+									</div>
+									<div class="control-body-filtres__row control-raiting-filtres">
+										<input id="control-raiting4" type="checkbox" name="form[]" class="control-raiting-filtres__input">
+										<label for="control-raiting4" class="control-raiting-filtres__label">
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+										</label>
+									</div>
+									<div class="control-body-filtres__row control-raiting-filtres">
+										<input id="control-raiting5" type="checkbox" name="form[]" class="control-raiting-filtres__input">
+										<label for="control-raiting5" class="control-raiting-filtres__label">
+											<picture><source srcset="img/stars/Star_full.webp" type="image/webp"><img src="img/stars/Star_full.png" alt="+"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+											<picture><source srcset="img/stars/Star_empty.webp" type="image/webp"><img src="img/stars/Star_empty.png" alt="-"></picture>
+										</label>
+									</div>
+								</form>
+							</div>
+							<div class="control-body-filtres__range range-control-filtres">
+								<div class="range-control-filtres__title">Price</div>
+								<div id="range" class="range-control-filtres__range"></div>
+								<div class="range-control-filtres__inputs">
+									<div class="range-control-filtres__inputs-body">
+										<div class="range-control-filtres__min">Min</div>
+										<input id="price-start" data-from value="500" class="range-control-filtres__input" autocomplete="off" type="text" name="form[]">
+									</div>
+									<div class="range-control-filtres__minus"><span>-</span></div>
+									<div class="range-control-filtres__inputs-body">
+										<div class="range-control-filtres__max">Max</div>
+										<input id="price-end" data-to value="10000" class="range-control-filtres__input" autocomplete="off" type="text" name="form[]">
+									</div>
+								</div>
+								<div class="range-control-filtres__buttons">
+									<div class="range-control-filtres__button button_curd"><span>Apply</span></div>
+									<div class="range-control-filtres__button button_range"><span>Reset</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="control-page-body__cards control-body-card">
+							<div class="control-body-card__body">
+								<div class="control-body-card__image-ibg"><a href="card_product.html"><picture><source srcset="img/recept.webp" type="image/webp"><img src="img/recept.jpg" alt="img"></picture></a>
+								</div>
+								<div class="control-body-card__content-left">
+									<div class="control-body-card__title">Product title</div>
+									<div class="control-body-card__description">Space for a small product description</div>
+									<div class="control-body-card__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="control-body-card__info info-card-body">
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Fresheness</div>
+											<div class="info-card-body__colum-max">New (Extra fresh)</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Farm</div>
+											<div class="info-card-body__colum-max">Grocery Tarm Fields</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Delivery</div>
+											<div class="info-card-body__colum-max">Europe</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Stock</div>
+											<div class="info-card-body__colum-max">320 pcs</div>
+										</div>
+									</div>
+								</div>
+								<div class="control-body-card__content-right">
+									<div class="control-body-card__ptices">
+										<div class="control-body-card__ptice"><span>36.99</span><span>USD</span></div>
+										<div class="control-body-card__discount"><span>48.56</span></div>
+									</div>
+									<div class="control-body-card__stock">
+										<div class="control-body-card__stock-title">Free Shipping</div>
+										<div class="control-body-card__stock-description">Delivery in 1 day</div>
+									</div>
+									<div class="control-body-card__buttons">
+										<a href="card_product.html">
+											<div class="control-body-card__button control-body-card__button_buy button_curd-arrow">
+												<span>Product Detail</span><span>Buy now</span>
+											</div>
+										</a>
+										<button type="submit" class="control-body-card__button button_add"><span></span>Add to
+											wish list</button>
+									</div>
+								</div>
+							</div>
+							<div class="control-body-card__body">
+								<div class="control-body-card__image-ibg"><a href="card_product.html"><picture><source srcset="img/recept2.webp" type="image/webp"><img src="img/recept2.jpg" alt="img"></picture></a>
+								</div>
+								<div class="control-body-card__content-left">
+									<div class="control-body-card__title">Product title</div>
+									<div class="control-body-card__description">Space for a small product description</div>
+									<div class="control-body-card__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="control-body-card__info info-card-body">
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Fresheness</div>
+											<div class="info-card-body__colum-max">New (Extra fresh)</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Farm</div>
+											<div class="info-card-body__colum-max">Grocery Tarm Fields</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Delivery</div>
+											<div class="info-card-body__colum-max">Europe</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Stock</div>
+											<div class="info-card-body__colum-max">320 pcs</div>
+										</div>
+									</div>
+								</div>
+								<div class="control-body-card__content-right">
+									<div class="control-body-card__ptices">
+										<div class="control-body-card__ptice"><span>36.99</span><span>USD</span></div>
+										<div class="control-body-card__discount"><span>48.56</span></div>
+									</div>
+									<div class="control-body-card__stock">
+										<div class="control-body-card__stock-title">Free Shipping</div>
+										<div class="control-body-card__stock-description">Delivery in 1 day</div>
+									</div>
+									<div class="control-body-card__buttons">
+										<a href="card_product.html">
+											<div class="control-body-card__button control-body-card__button_buy button_curd-arrow">
+												<span>Product
+													Detail</span><span>Buy now</span>
+											</div>
+										</a>
+										<button type="submit" class="control-body-card__button button_add"><span></span>Add to
+											wish list</button>
+									</div>
+								</div>
+							</div>
+							<div class="control-body-card__body">
+								<div class="control-body-card__image-ibg"><a href="card_product.html"><picture><source srcset="img/Example.webp" type="image/webp"><img src="img/Example.jpg" alt="img"></picture></a>
+								</div>
+								<div class="control-body-card__content-left">
+									<div class="control-body-card__title">Product title</div>
+									<div class="control-body-card__description">Space for a small product description</div>
+									<div class="control-body-card__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="control-body-card__info info-card-body">
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Fresheness</div>
+											<div class="info-card-body__colum-max">New (Extra fresh)</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Farm</div>
+											<div class="info-card-body__colum-max">Grocery Tarm Fields</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Delivery</div>
+											<div class="info-card-body__colum-max">Europe</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Stock</div>
+											<div class="info-card-body__colum-max">320 pcs</div>
+										</div>
+									</div>
+								</div>
+								<div class="control-body-card__content-right">
+									<div class="control-body-card__ptices">
+										<div class="control-body-card__ptice"><span>36.99</span><span>USD</span></div>
+										<div class="control-body-card__discount"><span>48.56</span></div>
+									</div>
+									<div class="control-body-card__stock">
+										<div class="control-body-card__stock-title">Free Shipping</div>
+										<div class="control-body-card__stock-description">Delivery in 1 day</div>
+									</div>
+									<div class="control-body-card__buttons">
+										<a href="card_product.html">
+											<div class="control-body-card__button control-body-card__button_buy button_curd-arrow">
+												<span>Product
+													Detail</span><span>Buy now</span>
+											</div>
+										</a>
+										<button type="submit" class="control-body-card__button button_add"><span></span>Add to
+											wish list</button>
+									</div>
+								</div>
+							</div>
+							<div class="control-body-card__body">
+								<div class="control-body-card__image-ibg"><a href=""><picture><source srcset="img/Example2.webp" type="image/webp"><img src="img/Example2.jpg" alt="img"></picture></a>
+								</div>
+								<div class="control-body-card__content-left">
+									<div class="control-body-card__title">Product title</div>
+									<div class="control-body-card__description">Space for a small product description</div>
+									<div class="control-body-card__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="control-body-card__info info-card-body">
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Fresheness</div>
+											<div class="info-card-body__colum-max">New (Extra fresh)</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Farm</div>
+											<div class="info-card-body__colum-max">Grocery Tarm Fields</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Delivery</div>
+											<div class="info-card-body__colum-max">Europe</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Stock</div>
+											<div class="info-card-body__colum-max">320 pcs</div>
+										</div>
+									</div>
+								</div>
+								<div class="control-body-card__content-right">
+									<div class="control-body-card__ptices">
+										<div class="control-body-card__ptice"><span>36.99</span><span>USD</span></div>
+										<div class="control-body-card__discount"><span>48.56</span></div>
+									</div>
+									<div class="control-body-card__stock">
+										<div class="control-body-card__stock-title">Free Shipping</div>
+										<div class="control-body-card__stock-description">Delivery in 1 day</div>
+									</div>
+									<div class="control-body-card__buttons">
+										<a href="card_product.html">
+											<div class="control-body-card__button control-body-card__button_buy button_curd-arrow">
+												<span>Product
+													Detail</span><span>Buy now</span>
+											</div>
+										</a>
+										<button type="submit" class="control-body-card__button button_add"><span></span>Add to
+											wish list</button>
+									</div>
+								</div>
+							</div>
+							<div class="control-body-card__body">
+								<div class="control-body-card__image-ibg"><a href=""><picture><source srcset="img/Example3.webp" type="image/webp"><img src="img/Example3.jpg" alt="img"></picture></a>
+								</div>
+								<div class="control-body-card__content-left">
+									<div class="control-body-card__title">Product title</div>
+									<div class="control-body-card__description">Space for a small product description</div>
+									<div class="control-body-card__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="control-body-card__info info-card-body">
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Fresheness</div>
+											<div class="info-card-body__colum-max">New (Extra fresh)</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Farm</div>
+											<div class="info-card-body__colum-max">Grocery Tarm Fields</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Delivery</div>
+											<div class="info-card-body__colum-max">Europe</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Stock</div>
+											<div class="info-card-body__colum-max">320 pcs</div>
+										</div>
+									</div>
+								</div>
+								<div class="control-body-card__content-right">
+									<div class="control-body-card__ptices">
+										<div class="control-body-card__ptice"><span>36.99</span><span>USD</span></div>
+										<div class="control-body-card__discount"><span>48.56</span></div>
+									</div>
+									<div class="control-body-card__stock">
+										<div class="control-body-card__stock-title">Free Shipping</div>
+										<div class="control-body-card__stock-description">Delivery in 1 day</div>
+									</div>
+									<div class="control-body-card__buttons">
+										<a href="card_product.html">
+											<div class="control-body-card__button control-body-card__button_buy button_curd-arrow">
+												<span>Product
+													Detail</span><span>Buy now</span>
+											</div>
+										</a>
+										<button type="submit" class="control-body-card__button button_add"><span></span>Add to
+											wish list</button>
+									</div>
+								</div>
+							</div>
+							<div class="control-body-card__body">
+								<div class="control-body-card__image-ibg"><a href=""><picture><source srcset="img/recept.webp" type="image/webp"><img src="img/recept.jpg" alt="img"></picture></a>
+								</div>
+								<div class="control-body-card__content-left">
+									<div class="control-body-card__title">Product title</div>
+									<div class="control-body-card__description">Space for a small product description</div>
+									<div class="control-body-card__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="control-body-card__info info-card-body">
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Fresheness</div>
+											<div class="info-card-body__colum-max">New (Extra fresh)</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Farm</div>
+											<div class="info-card-body__colum-max">Grocery Tarm Fields</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Delivery</div>
+											<div class="info-card-body__colum-max">Europe</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Stock</div>
+											<div class="info-card-body__colum-max">320 pcs</div>
+										</div>
+									</div>
+								</div>
+								<div class="control-body-card__content-right">
+									<div class="control-body-card__ptices">
+										<div class="control-body-card__ptice"><span>36.99</span><span>USD</span></div>
+										<div class="control-body-card__discount"><span>48.56</span></div>
+									</div>
+									<div class="control-body-card__stock">
+										<div class="control-body-card__stock-title">Free Shipping</div>
+										<div class="control-body-card__stock-description">Delivery in 1 day</div>
+									</div>
+									<div class="control-body-card__buttons">
+										<div class="control-body-card__button control-body-card__button_buy button_curd-arrow">
+											<span>Product
+												Detail</span><span>Buy now</span>
+										</div>
+										<div class="control-body-card__button button_add"><span></span>Add to wish list</div>
+									</div>
+								</div>
+							</div>
+							<div class="control-body-card__body">
+								<div class="control-body-card__image-ibg"><a href=""><picture><source srcset="img/recept2.webp" type="image/webp"><img src="img/recept2.jpg" alt="img"></picture></a>
+								</div>
+								<div class="control-body-card__content-left">
+									<div class="control-body-card__title">Product title</div>
+									<div class="control-body-card__description">Space for a small product description</div>
+									<div class="control-body-card__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="control-body-card__info info-card-body">
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Fresheness</div>
+											<div class="info-card-body__colum-max">New (Extra fresh)</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Farm</div>
+											<div class="info-card-body__colum-max">Grocery Tarm Fields</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Delivery</div>
+											<div class="info-card-body__colum-max">Europe</div>
+										</div>
+										<div class="info-card-body__row">
+											<div class="info-card-body__colum-min">Stock</div>
+											<div class="info-card-body__colum-max">320 pcs</div>
+										</div>
+									</div>
+								</div>
+								<div class="control-body-card__content-right">
+									<div class="control-body-card__ptices">
+										<div class="control-body-card__ptice"><span>36.99</span><span>USD</span></div>
+										<div class="control-body-card__discount"><span>48.56</span></div>
+									</div>
+									<div class="control-body-card__stock">
+										<div class="control-body-card__stock-title">Free Shipping</div>
+										<div class="control-body-card__stock-description">Delivery in 1 day</div>
+									</div>
+									<div class="control-body-card__buttons">
+										<a href="card_product.html">
+											<div class="control-body-card__button control-body-card__button_buy button_curd-arrow">
+												<span>Product
+													Detail</span><span>Buy now</span>
+											</div>
+										</a>
+										<button type="submit" class="control-body-card__button button_add"><span></span>Add to
+											wish list</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="control-page-products__container">
+						<div class="control-page-products__navigation control-products-navigation">
+							<div class="control-products-navigation__pages">
+								<div class="control-products-navigation__title">Page:</div>
+								<div class="control-products-navigation__page">1</div>
+								<div class="control-products-navigation__page">2</div>
+								<div class="control-products-navigation__page _page-active">3</div>
+								<div class="control-products-navigation__page">4</div>
+							</div>
+							<div data-da=".control-page-products__container, 480" class="control-products-navigation__button button_show"><span>Show more products</span></div>
+							<a href="">
+								<div class="control-products-navigation__amount"><span>336</span>Products</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__columns">
+						<div class="top-footer__column">
+							<div class="top-footer__title">Get in touch</div>
+							<ul class="top-footer__list">
+								<li class="top-footer__item"><a class="top-footer__link" href="">About Us</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Careers</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Press Releases</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Blog</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__column">
+							<div class="top-footer__title">Connections</div>
+							<ul class="top-footer__list">
+								<li class="top-footer__item"><a class="top-footer__link" href="">Facebook</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Twitter</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Instagram</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Youtube</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">LinkedIn</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__column">
+							<div class="top-footer__title">Earnings</div>
+							<ul class="top-footer__list">
+								<li class="top-footer__item"><a class="top-footer__link" href="">Become an Affiliate</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Advertise your product</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Sell on Market</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__column">
+							<div class="top-footer__title">Account</div>
+							<ul class="top-footer__list">
+								<li class="top-footer__item"><a class="top-footer__link" href="">Your account</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Returns Centre</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">100 % purchase protection</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Chat with us</a></li>
+								<li class="top-footer__item"><a class="top-footer__link" href="">Help</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__tags tags-footer">
+					<div class="tags-footer__title">Product tags</div>
+					<div class="tags-footer__tags">
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Beans</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Carrots</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Apples</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Garlic</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Mushrooms</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Tomatoes</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Chilli peppers</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Broccoli</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Watermelons</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Oranges</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Bananas</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Grapes</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Cherries</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Meat</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Seo tag</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Fish</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Seo tag</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Fresh food</span></a></div>
+						<div class="tags-footer__tag"><a class="tags-footer__link" href="#"><span>Lemons</span></a></div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__text">Copyright © 2022 petrbilek.com</div>
+				</div>
+			</div>
+		</footer>
+		<div class="page__hidden">
+			<div class="checkout-page__basket basket-checkout">
+				<div class="basket-checkout__cart">
+					<div class="basket-checkout__shopping-cart">
+						<div class="basket-checkout__shopping-title">Shopping cart</div>
+						<button class="basket-checkout__shopping-close"><span>Close</span></button>
+					</div>
+					<div class="basket-checkout__title">Order Summary</div>
+					<div class="basket-checkout__description">Price can change depending on shipping method and taxes
+						of your state.</div>
+					<div class="basket-checkout__product basket-checkout-product">
+						<div class="basket-checkout-product__actions">
+							<div class="basket-checkout-product__image-ibg"><picture><source srcset="img/recept.webp" type="image/webp"><img src="img/recept.jpg" alt="recept"></picture>
+							</div>
+							<button type="button" class="basket-checkout-product__wishlist">Wishlist</button>
+							<button type="button" class="basket-checkout-product__compare">Compare</button>
+							<button ttype="button" class="basket-checkout-product__remove">Remove</button>
+						</div>
+						<div class="basket-checkout-product__description">
+							<div class="basket-checkout-product__name">Product title</div>
+							<div class="basket-checkout-product__detail">
+								<ul class="basket-checkout-product__list">
+									<li class="basket-checkout-product__item"><span>Farm:</span><span>Tharamis Farm</span>
+									</li>
+									<li class="basket-checkout-product__item"><span>Freshness:</span><span>1 day old</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket-checkout-product__raiting rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active rating__active_yellow"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating">
+										<input type="radio" class="rating__item" value="2" name="rating">
+										<input type="radio" class="rating__item" value="3" name="rating">
+										<input type="radio" class="rating__item" value="4" name="rating">
+										<input type="radio" class="rating__item" value="5" name="rating">
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+							<div class="basket-checkout-product__management ">
+								<div class="basket-checkout-product__prices">
+									<div class="basket-checkout-product__current-price">36.99 <span>USD</span></div>
+									<div class="basket-checkout-product__old-price">48.56</div>
+								</div>
+								<div class="basket-checkout-product__quantity">
+									<div data-quantity class="quantity quantity_card">
+										<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="basket-checkout__product basket-checkout-product">
+						<div class="basket-checkout-product__actions">
+							<div class="basket-checkout-product__image-ibg"><picture><source srcset="img/recept2.webp" type="image/webp"><img src="img/recept2.jpg" alt="recept2"></picture>
+							</div>
+							<button type="button" class="basket-checkout-product__wishlist">Wishlist</button>
+							<button type="button" class="basket-checkout-product__compare">Compare</button>
+							<button ttype="button" class="basket-checkout-product__remove">Remove</button>
+						</div>
+						<div class="basket-checkout-product__description">
+							<div class="basket-checkout-product__name">Product title</div>
+							<div class="basket-checkout-product__detail">
+								<ul class="basket-checkout-product__list">
+									<li class="basket-checkout-product__item"><span>Farm:</span><span>Tharamis Farm</span>
+									</li>
+									<li class="basket-checkout-product__item"><span>Freshness:</span><span>1 day old</span>
+									</li>
+								</ul>
+							</div>
+							<div class="basket-checkout-product__raiting rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active rating__active_yellow"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating">
+										<input type="radio" class="rating__item" value="2" name="rating">
+										<input type="radio" class="rating__item" value="3" name="rating">
+										<input type="radio" class="rating__item" value="4" name="rating">
+										<input type="radio" class="rating__item" value="5" name="rating">
+									</div>
+								</div>
+								<div class="rating__value">3.6</div>
+							</div>
+							<div class="basket-checkout-product__management ">
+								<div class="basket-checkout-product__prices">
+									<div class="basket-checkout-product__current-price">36.99 <span>USD</span></div>
+									<div class="basket-checkout-product__old-price">48.56</div>
+								</div>
+								<div class="basket-checkout-product__quantity">
+									<div data-quantity class="quantity quantity_card">
+										<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="basket-checkout__hidden"></div>
+					<div class="basket-checkout__sum-price">
+						<div class="basket-checkout__subtotal"><span>Subtotal</span><span>73.98 USD</span>
+						</div>
+						<div class="basket-checkout__tax"><span>Tax</span><span>17%</span><span>73.98
+								USD</span></div>
+						<div class="basket-checkout__shipping"><span>Chipping</span><span>0 USD</span>
+						</div>
+					</div>
+					<form action="#" class="basket-checkout__form">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Apply promo code" class="basket-checkout__input">
+						<button type="submit" class="basket-checkout__button">Apply now</button>
+					</form>
+					<div class="basket-checkout__bottom">
+						<div class="basket-checkout__col">
+							<div class="basket-checkout__total">Total Order</div>
+							<div class="basket-checkout__delivery-day"><span>Guaranteed delivery
+									day:</span> <span>June 12, 2020</span></div>
+						</div>
+						<div class="basket-checkout__total-price"><span>89.84</span><span>USD</span></div>
+						<div class="basket-checkout__continue">
+							<div class="basket-checkout__text">Continue shopping</div>
+							<div class="basket-checkout__button-checkout button_continue"><a href="checkout_page.html"><span>Go to
+										Checkout</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					Content Popup
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220831183857"></script>
+</body>
+
+</html>

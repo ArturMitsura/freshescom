@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>card_product</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220831183857">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<div class="top-header__content">
+						<div class="top-header__contact">
+							<ul class="menu__list menu__list_contacts">
+								<li data-da=".menu__list_main, 768" class="menu__item"><a href="#" class="menu__link">Chat with us</a>
+								</li>
+								<li data-da=".menu__list_main, 768" class="menu__item">+375445612394</li>
+								<li data-da=".menu__list_main, 768" class="menu__item">infofresh@gmail.com</li>
+							</ul>
+						</div>
+						<div class="top-header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list menu__list_main">
+									<li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+									<li class="menu__item"><a href="" class="menu__link">About Us</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Careers</a></li>
+								</ul>
+							</nav>
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+						</div>
+					</div>
+				</div>
+				<div class="header__main main-header">
+					<div class="main-header__content">
+						<div data-da=".top-header__content, 768, 1" class="top-main__logo"><a href="">Freshesecom</a></div>
+						<div class="top-main__form">
+							<form action="" id="main-form" class="main__form">
+								<label for="forMainheader" class="main__label">
+									<select name="form[]" data-class-modif="form__select">
+										<option value="1" selected>All categories</option>
+										<option value="2">Bakery</option>
+										<option value="3">Fruit and vegetables</option>
+										<option value="4">Meat and fish</option>
+									</select>
+								</label>
+								<input id="forMainheader" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Search Products, categories" class="main__input">
+								<button type="submit" class=" main__button _icon-search"></button>
+							</form>
+						</div>
+						<button data-da=".top-header__content, 768, 1" class="top-main__purchases purchases-main">
+							<a href="#" data-popup="#popup">
+								<div class="purchases-main__user _icon-user"></div>
+							</a>
+							<div class="purchases-main__curt _icon-curt"><span>4</span><a href="checkout_page.html"></a></div>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__category">
+						<div class="bottom-header__body">
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Bakery</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Fruit and
+									vegetables</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Meat and fish</a>
+							</div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Drinks</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Kitchen</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Special nutrion</a>
+							</div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Baby</a></div>
+							<div class="bottom-header__title"><a class="bottom-header__link" href="category.html">Pharmacy</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__bread bread-bread">
+				<div class="bread-bread__container">
+					<nav class="bread-bread__body">
+						<ul class="bread-bread__list">
+							<li class="bread-bread__item"><a class="bread-bread__link" href="index.html">Homepage</a></li>
+							<li class="bread-bread__item">Checkout page</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="page__checkout checkout-page">
+				<div class="checkout-page__container">
+					<form action="#" class="checkout-page__order order-checkout">
+						<div class="order-checkout__billing-info">
+							<div class="order-checkout__title">Billing info</div>
+							<div class="order-checkout__steps">
+								<div class="order-checkout__info-step">Please enter your billing info</div>
+								<div class="order-checkout__step">Step 1 of 5</div>
+							</div>
+							<div class="order-checkout__form form-billing-info">
+								<div class="form-billing-info__row">
+									<div class="form-billing-info__col">
+										<label for="form-billing-firstname">First name</label>
+										<input id="form-billing-firstname" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="First name" class="form-billing-info__first-name">
+									</div>
+									<div class="form-billing-info__col">
+										<label for="form-billing-lastname">Last name</label>
+										<input id="form-billing-lastname" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Last name" class="form-billing-info__last-name">
+									</div>
+								</div>
+								<div class="form-billing-info__row">
+									<div class="form-billing-info__col">
+										<label for="form-billing-email">Email address</label>
+										<input id="form-billing-email" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Email address" class="form-billing-info__email">
+									</div>
+									<div class="form-billing-info__col">
+										<label for="form-billing-phone">Phone number</label>
+										<input id="form-billing-phone" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Phone number" class="form-billing-info__phone">
+									</div>
+								</div>
+								<div class="form-billing-info__row">
+									<div class="form-billing-info__col">
+										<label for="form-billing-address">Address</label>
+										<input id="form-billing-address" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Address" class="form-billing-info__address">
+									</div>
+									<div class="form-billing-info__col">
+										<label for="form-billing-city">Town / City</label>
+										<input id="form-billing-city" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Town or city" class="form-billing-info__city">
+									</div>
+								</div>
+								<div class="form-billing-info__row">
+									<div class="form-billing-info__col">
+										<label for="form-billing-country">State / Country</label>
+										<input id="form-billing-country" autocomplete="off" type="number" name="form[]" data-error="Ошибка" placeholder="Choose a state or Country" class="form-billing-info__country">
+									</div>
+									<div class="form-billing-info__col">
+										<label for="form-billing-postal">ZIP/Postal code</label>
+										<input id="form-billing-postal" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Postal code or ZIP" class="form-billing-info__postal">
+									</div>
+								</div>
+								<div class="form-billing-info__chip">
+									<input id="form-billing-chip" autocomplete="off" type="checkbox" name="form[]" class="form-billing-info__different-address">
+									<label class="form-billing-info__label-check" for="form-billing-chip">Ship to a
+										different address?</label>
+								</div>
+							</div>
+						</div>
+						<div class="order-checkout__billing-method">
+							<div class="order-checkout__title">Billing method</div>
+							<div class="order-checkout__steps">
+								<div class="order-checkout__info-step">Please enter your payment method</div>
+								<div class="order-checkout__step">Step 2 of 5</div>
+							</div>
+							<div class="order-checkout__form form-billing-method">
+								<div class="form-billing-method__row">
+									<div class="form-billing-method__fedex-input">
+										<input checked id="form-billing-fedex" autocomplete="off" type="radio" name="form[]" class="form-billing-method__input">
+										<label class="form-billing-method__label" for="form-billing-fedex">FedEx</label>
+									</div>
+									<div class="form-billing-method__add-price">
+										<span>+32 USD</span>
+										<p>Additional price</p>
+									</div>
+									<div class="form-billing-method__image ">
+										<picture><source srcset="img/pays/fedex.webp" type="image/webp"><img src="img/pays/fedex.png" width="54" height="16" alt="fedex"></picture>
+									</div>
+								</div>
+								<div class="form-billing-method__row">
+									<div class="form-billing-method__dhl-input">
+										<input id="form-billing-dhl" autocomplete="off" type="radio" name="form[]" class="form-billing-method__input">
+										<label class="form-billing-method__label" for="form-billing-dhl">DHL</label>
+									</div>
+									<div class="form-billing-method__add-price">
+										<span>+15 USD</span>
+										<p>Additional price</p>
+									</div>
+									<div class="form-billing-method__image">
+										<picture><source srcset="img/pays/dnl.webp" type="image/webp"><img src="img/pays/dnl.png" width="88" height="14" alt="dhl"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="order-checkout__payment-method">
+							<div class="order-checkout__title">Payment method</div>
+							<div class="order-checkout__steps">
+								<div class="order-checkout__info-step">Please enter your payment method</div>
+								<div class="order-checkout__step">Step 3 of 5</div>
+							</div>
+							<div class="order-checkout__form form-payment-method">
+								<div class="form-payment-method__credit-card credit-card-form">
+									<div class="credit-card-form__select">
+										<input checked id="credit-card-input" autocomplete="off" type="radio" name="form[]" class="credit-card-form__input">
+										<label class="credit-card-form__label credit-card-form__label_check" for="credit-card-input">Credit card</label>
+										<div class="credit-card-form__image"><picture><source srcset="img/pays/visa-mastercard.webp" type="image/webp"><img src="img/pays/visa-mastercard.png" width="98px" height="22px" alt="visa-mastercard"></picture></div>
+									</div>
+									<div class="credit-card-form__number-block">
+										<label for="credit-card-number" class="credit-card-form__label">Card number</label>
+										<input id="credit-card-number" autocomplete="off" type="number" name="form[]" data-error="Ошибка" placeholder="Card number" class="credit-card-form__number">
+									</div>
+									<div class="credit-card-form__row">
+										<div class="credit-card-form__holder-block">
+											<label for="credit-card-holder" class="credit-card-form__label">Card
+												holder</label>
+											<input id="credit-card-holder" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Card holder" class="credit-card-form__holder">
+										</div>
+										<div class="credit-card-form__expiration-block">
+											<label for="credit-card-expiration" class="credit-card-form__label">Expiration
+												date</label>
+											<input id="credit-card-expiration" autocomplete="off" type="number" name="form[]" data-error="Ошибка" placeholder="DD/MM/YY" class="credit-card-form__expiration">
+										</div>
+										<div class="credit-card-form__cvc-block">
+											<label for="credit-card-cvc" class="credit-card-form__label">CVC</label>
+											<input id="credit-card-cvc" autocomplete="off" type="number" name="form[]" data-error="Ошибка" placeholder="CVC" class="credit-card-form__cvc">
+										</div>
+									</div>
+								</div>
+								<div class="form-payment-method__paypal">
+									<div class="form-payment-method__row">
+										<div class="form-payment-method__paypal-input">
+											<input id="form-payment-fedex" autocomplete="off" type="radio" name="form[]" class="form-payment-method__input">
+											<label class="form-payment-method__label" for="form-payment-fedex">PayPal</label>
+										</div>
+										<div class="form-payment-method__image ">
+											<picture><source srcset="img/pays/PayPal.webp" type="image/webp"><img src="img/pays/PayPal.png" width="80px" height="20px" alt="PayPal"></picture>
+										</div>
+									</div>
+								</div>
+								<div class="form-payment-method__bitcoin">
+									<div class="form-payment-method__row">
+										<div class="form-payment-method__bitcoin-input">
+											<input id="form-payment-bitcoin" autocomplete="off" type="radio" name="form[]" class="form-payment-method__input">
+											<label class="form-payment-method__label" for="form-payment-bitcoin">Bitcoin</label>
+										</div>
+										<div class="form-payment-method__image ">
+											<picture><source srcset="img/pays/bitcoin.webp" type="image/webp"><img src="img/pays/bitcoin.png" width="78px" height="20px" alt="bitcoin"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="order-checkout__add-info">
+							<div class="order-checkout__title">Additional informations</div>
+							<div class="order-checkout__steps">
+								<div class="order-checkout__info-step">Need something else? We will make it for you!</div>
+								<div class="order-checkout__step">Step 4 of 5</div>
+							</div>
+							<div class="order-checkout__form form-add-info">
+								<label for="add-info-notes" class="form-add-info__title">Order notes</label>
+								<textarea name="message-add-info" id="add-info-notes" class="form-add-info__text" placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..."></textarea>
+							</div>
+						</div>
+						<div class="order-checkout__confirmation">
+							<div class="order-checkout__title">Confirmation</div>
+							<div class="order-checkout__steps">
+								<div class="order-checkout__info-step">We are getting to the end. Just few clicks and your order
+									si ready!</div>
+								<div class="order-checkout__step">Step 5 of 5</div>
+							</div>
+							<div class="order-checkout__form form-confirmation">
+								<div class="form-confirmation__agree-marketing">
+									<input id="confirmation-form-marketing" autocomplete="off" type="checkbox" name="form[]" class="form-confirmation__input">
+									<label for="confirmation-form-marketing" class="form-confirmation__label">I agree with
+										sending an Marketing and newsletter emails. No spam, promissed!</label>
+								</div>
+								<div class="form-confirmation__agree-privacy">
+									<input id="confirmation-form-privacy" autocomplete="off" type="checkbox" name="form[]" class="form-confirmation__input">
+									<label for="confirmation-form-privacy" class="form-confirmation__label"><span>I agree with
+											our <a href="">terms and conditions</a> and <a href="">privacy
+												policy</a>.</span></label>
+								</div>
+							</div>
+							<div class="order-checkout__button button_checkout"><span>Complete order</span></div>
+							<div class="order-checkout__successfully"><picture><source srcset="img/pays/data-safe.webp" type="image/webp"><img src="img/pays/data-safe.png" alt="successfully"></picture>
+							</div>
+							<div class="order-checkout__title order-checkout__title_end">All your data are safe</div>
+							<div class="order-checkout__info-step order-checkout__info-step_end">We are using the most advanced
+								security to provide you the best experience ever.</div>
+						</div>
+					</form>
+					<div class="checkout-page__basket basket-checkout">
+						<div class="basket-checkout__cart">
+							<div class="basket-checkout__shopping-cart">
+								<div class="basket-checkout__shopping-title">Shopping cart</div>
+								<button class="basket-checkout__shopping-close"><span>Close</span></button>
+							</div>
+							<div class="basket-checkout__title">Order Summary</div>
+							<div class="basket-checkout__description">Price can change depending on shipping method and taxes
+								of your state.</div>
+							<div class="basket-checkout__product basket-checkout-product">
+								<div class="basket-checkout-product__actions">
+									<div class="basket-checkout-product__image-ibg"><picture><source srcset="img/recept.webp" type="image/webp"><img src="img/recept.jpg" alt="recept"></picture>
+									</div>
+									<button type="button" class="basket-checkout-product__wishlist">Wishlist</button>
+									<button type="button" class="basket-checkout-product__compare">Compare</button>
+									<button ttype="button" class="basket-checkout-product__remove">Remove</button>
+								</div>
+								<div class="basket-checkout-product__description">
+									<div class="basket-checkout-product__name">Product title</div>
+									<div class="basket-checkout-product__detail">
+										<ul class="basket-checkout-product__list">
+											<li class="basket-checkout-product__item"><span>Farm:</span><span>Tharamis Farm</span>
+											</li>
+											<li class="basket-checkout-product__item"><span>Freshness:</span><span>1 day old</span>
+											</li>
+										</ul>
+									</div>
+									<div class="basket-checkout-product__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active rating__active_yellow"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="basket-checkout-product__management ">
+										<div class="basket-checkout-product__prices">
+											<div class="basket-checkout-product__current-price">36.99 <span>USD</span></div>
+											<div class="basket-checkout-product__old-price">48.56</div>
+										</div>
+										<div class="basket-checkout-product__quantity">
+											<div data-quantity class="quantity quantity_card">
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="basket-checkout__product basket-checkout-product">
+								<div class="basket-checkout-product__actions">
+									<div class="basket-checkout-product__image-ibg"><picture><source srcset="img/recept2.webp" type="image/webp"><img src="img/recept2.jpg" alt="recept2"></picture>
+									</div>
+									<button type="button" class="basket-checkout-product__wishlist">Wishlist</button>
+									<button type="button" class="basket-checkout-product__compare">Compare</button>
+									<button ttype="button" class="basket-checkout-product__remove">Remove</button>
+								</div>
+								<div class="basket-checkout-product__description">
+									<div class="basket-checkout-product__name">Product title</div>
+									<div class="basket-checkout-product__detail">
+										<ul class="basket-checkout-product__list">
+											<li class="basket-checkout-product__item"><span>Farm:</span><span>Tharamis Farm</span>
+											</li>
+											<li class="basket-checkout-product__item"><span>Freshness:</span><span>1 day old</span>
+											</li>
+										</ul>
+									</div>
+									<div class="basket-checkout-product__raiting rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active rating__active_yellow"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="basket-checkout-product__management ">
+										<div class="basket-checkout-product__prices">
+											<div class="basket-checkout-product__current-price">36.99 <span>USD</span></div>
+											<div class="basket-checkout-product__old-price">48.56</div>
+										</div>
+										<div class="basket-checkout-product__quantity">
+											<div data-quantity class="quantity quantity_card">
+												<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="basket-checkout__hidden"></div>
+							<div class="basket-checkout__sum-price">
+								<div class="basket-checkout__subtotal"><span>Subtotal</span><span>73.98 USD</span>
+								</div>
+								<div class="basket-checkout__tax"><span>Tax</span><span>17%</span><span>73.98
+										USD</span></div>
+								<div class="basket-checkout__shipping"><span>Chipping</span><span>0 USD</span>
+								</div>
+							</div>
+							<form action="#" class="basket-checkout__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Apply promo code" class="basket-checkout__input">
+								<button type="submit" class="basket-checkout__button">Apply now</button>
+							</form>
+							<div class="basket-checkout__bottom">
+								<div class="basket-checkout__col">
+									<div class="basket-checkout__total">Total Order</div>
+									<div class="basket-checkout__delivery-day"><span>Guaranteed delivery
+											day:</span> <span>June 12, 2020</span></div>
+								</div>
+								<div class="basket-checkout__total-price"><span>89.84</span><span>USD</span></div>
+								<div class="basket-checkout__continue">
+									<div class="basket-checkout__text">Continue shopping</div>
+									<div class="basket-checkout__button-checkout button_continue"><a href="checkout_page.html"><span>Go to
+												Checkout</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__text">Copyright © 2022 petrbilek.com</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					Content Popup
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220831183857"></script>
+</body>
+
+</html>
